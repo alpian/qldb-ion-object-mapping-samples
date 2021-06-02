@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.3.0" />
   </ItemGroup>
 
+  <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
+    <ProjectReference Include="..\..\ion-object-mapper-dotnet\Amazon.Ion.ObjectMapper\Amazon.Ion.ObjectMapper.csproj" />
+    <ProjectReference Include="..\..\..\awslabs\amazon-qldb-driver-dotnet\Amazon.QLDB.Driver\Amazon.QLDB.Driver.csproj" />
+  </ItemGroup>
+
 </Project>
