@@ -16,6 +16,7 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
     <ProjectReference Include="..\..\ion-object-mapper-dotnet\Amazon.Ion.ObjectMapper\Amazon.Ion.ObjectMapper.csproj" />
     <ProjectReference Include="..\..\..\awslabs\amazon-qldb-driver-dotnet\Amazon.QLDB.Driver\Amazon.QLDB.Driver.csproj" />
+    <ProjectReference Include="..\..\..\awslabs\amazon-qldb-driver-dotnet\Amazon.QLDB.Driver.Serialization\Amazon.QLDB.Driver.Serialization.csproj" />
   </ItemGroup>
 
 </Project>
